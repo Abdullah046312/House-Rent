@@ -1,0 +1,305 @@
+/* navber part start */
+
+.navbar ul li a{
+    padding: 10px 30px !important;
+    border-radius: 50px;
+    color: #203239;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+    transform: scale(1);
+    
+}
+.navbar ul li a:hover{
+    background-color: #FF7527;
+    color: black;
+    transform: scale(1.2);
+    
+}
+.navbar ul li{
+    padding-left: 30px;
+}
+
+.navbar{
+    background-color: #EEEDDE;
+    
+}
+.navbar ul li:last-child a{
+    border: 2px solid !important;
+}
+/* navber part start */
+/* banner part start */
+#banner{
+    background-color: #EEEDDE;
+}
+.banner_inner{
+    padding: 120px 0px;
+}
+.banner_inner h2{
+    font-size: 56px;
+    font-weight: 600;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}
+.banner_inner p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, 0.507);
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    padding-right: 300px;
+}
+input{
+    width: 40%;
+    height: 60px;
+    border-radius: 12px;
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+
+.banner_right img{
+    padding: 60px 0px;
+    width: 100%;
+}
+/* banner part end */
+/* Tahapan part start  */
+.Tahapan_inner{
+    padding-top: 120px;
+}
+.Tahapan_inner h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}
+.Tahapan_inner_text{
+    background-color:#EEEDDE;
+    margin-top: 60px;
+    padding: 60px 60px;
+}
+.Tahapan_inner_text h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}
+.Tahapan_inner_text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, 0.548);
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+.Tahapan_inner_text h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+}
+/* Tahapan part end */
+
+/* Residen Favorit part start  */
+#Residen{
+    background-color: #EEEDDE;
+    margin-top: 120px;
+    
+    padding-bottom: 150px;
+}
+.Residen_main{
+    padding: 80px 0px;
+}
+.Residen_main h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    font-family: "Poppins", sans-serif;
+   
+}
+.Residen_main h4{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 60px;
+   
+}
+
+#Residen .Residen_right {
+    position: relative;
+}
+.Residen_right_img{
+    position: absolute;
+    top: 86px; 
+    left: 117px;
+}
+.Residen_inner_text h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    
+   
+}
+.Residen_inner_text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+   
+}
+.Residen_inner_text button {
+    margin-top: 50px;
+    width: 30%;
+    height: 50px;
+    gap: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    transition: .5s;
+
+   
+    
+}
+.Residen_inner_text button:hover{
+    background-color: #203239;
+    color: #ffff;
+    
+}
+/* Residen Favorit part end */
+
+/* Pilihan Auditor part start */
+#Pilihan{
+    padding: 60px 0px;
+}
+.Pilihan_main h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    font-family: "Poppins", sans-serif;
+    
+}
+.Pilihan_main h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    
+}
+.Pilihan_inner{
+    margin-top: 50px;
+}
+.Pilihan_inner img{
+    width: 100%;
+    transform: scale(.9);
+    transition: .5s;
+}
+.Pilihan_inner img:hover{
+    transform: scale(1);
+}
+.Pilihan_inner h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+.Pilihan_inner p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+/* Pilihan Auditor part end */
+
+/* Hubungi Kami part start */
+#Kami{
+    background-color: #EEEDDE;
+    padding: 50px 0px;
+}
+.Kami_inner{
+    background-color: #FFFFFF;
+    padding: 30px 70px;
+    height: 167px;
+    width: 274px;
+    border-radius: 12px;
+}
+.Kami_main h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+   margin-bottom: 50px;
+}
+.Kami_inner i{
+    padding: 0px 10px;
+}
+.Kami_inner h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}
+.Kami_inner h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}
+.Kami_inner button{
+    border-radius: 6px;
+    background-color: #203239;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    height: 44px;
+    width: 108px;
+    margin-top: 10px;
+    transition: .5s;
+    transform: scale(1);
+}
+.Kami_inner button:hover{
+    background-color: #FF7527;
+    color: #203239;
+    transform: scale(1.2);
+
+}
+.Kami_inner_right h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+    
+    
+}
+.Kami_inner_right img{
+    width: 70%;
+}
+
+/* Hubungi Kami part end */
+#footer{
+    background-color: #203239;
+    height: 50px;
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+.footer_icon i{
+    padding-left: 30px;
+    font-size: 30px;
+    transform: scale(1);
+    transition: .5s;
+    
+}
+.footer_icon i:hover{
+    transform: scale(1.2);
+   color: #FFFFFF;
+}
